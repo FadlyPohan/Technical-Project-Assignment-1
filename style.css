@@ -36,6 +36,8 @@ nav {
   position: -webkit-sticky;
   top: 0;
   background: #fff;
+  z-index: 1;
+  border-bottom: 1px solid #8d7b68;
 }
 nav ul {
   list-style-type: none;

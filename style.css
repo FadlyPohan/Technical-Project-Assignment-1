@@ -59,7 +59,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  background: #8d7b68;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 section {
@@ -91,21 +98,6 @@ h2 {
   color: #8d7b68;
   width: 100%;
   line-height: 50px;
-}
-
-a.brown {
-  background: #a4907c;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-a.brown:hover {
-  background: #62cdff;
-  text-decoration: none;
 }
 
 #about h2 {
@@ -143,20 +135,6 @@ h4 {
   border-bottom-left-radius: 100px;
 }
 
-a.tbl-green {
-  background: #27e1c1;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 15px 20px 15px 20px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-a.tbl-green:hover {
-  background: #8d7b68;
-  text-decoration: none;
-}
 p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;

@@ -108,8 +108,25 @@ a.brown:hover {
   text-align: center;
 }
 #about p {
-  display: inline-block;
+  margin: 10px;
+  padding: 5;
+  display: flex;
   text-align: center;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'comic sans ms';
+}
+.paragraph {
+  margin: 0;
+}
+.dt {
+  font-style: bold;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
 }
 #about img {
   width: 800px;
@@ -218,4 +235,32 @@ h3 {
   width: 100%;
   padding: 30px 0px 30px 0px;
   margin-top: 0px;
+}
+
+/* media Queries */
+
+/* Laptop */
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+  nav .menu ul li {
+    display: inline-block;
+    float: none;
+  }
 }
